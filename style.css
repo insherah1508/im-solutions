@@ -605,7 +605,10 @@ select option { background: var(--bg-3); color: var(--white); }
   .nav-links, .nav-cta { display: none; }
   .nav-mobile-btn { display: flex; }
   .hero-stats { gap: 32px; }
-  .why-card-float { display: none; }
+  .why-card-float { padding: 14px 18px; }
+  .why-card-float-1 { bottom: 16px; left: 16px; }
+  .why-card-float-2 { top: 16px; right: 16px; }
+  .why-float-val { font-size: 26px; }
   .form-row { grid-template-columns: 1fr; }
   .blog-grid { grid-template-columns: 1fr; }
   .contact-form { padding: 28px; }
