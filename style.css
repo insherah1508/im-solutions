@@ -143,6 +143,12 @@ p { font-size: 16px; line-height: 1.75; color: var(--muted); }
   color: var(--muted); transition: color 0.2s;
 }
 .mobile-menu a:hover { color: var(--gold); }
+.mobile-menu a.btn {
+  font-family: 'Jost', sans-serif; font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--bg); padding: 14px 32px; margin-top: 8px;
+}
+.mobile-menu a.btn:hover { color: var(--bg); }
 
 /* ── HERO ─────────────────────────────────────────────────── */
 .hero {
