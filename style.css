@@ -598,6 +598,9 @@ select option { background: var(--bg-3); color: var(--white); }
   .values-grid { grid-template-columns: 1fr; }
   .team-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr; gap: 40px; }
+  .footer { padding: 56px 0 32px; }
+  .footer-brand img { height: 34px !important; }
+  .footer-brand p { max-width: 100%; font-size: 16px; line-height: 1.75; }
   .cta-banner { padding: 48px 28px; margin: 0 16px; }
   .nav-links, .nav-cta { display: none; }
   .nav-mobile-btn { display: flex; }
