@@ -150,6 +150,8 @@ p { font-size: 16px; line-height: 1.75; color: var(--muted); }
 }
 .mobile-menu a.btn:hover { color: var(--bg); }
 
+.service-detail { scroll-margin-top: 110px; }
+
 /* ── FEATURED BLOG CARD ──────────────────────────────────── */
 .featured-card {
   background: var(--bg-2); border: 1px solid rgba(201,168,76,0.25);
@@ -585,7 +587,7 @@ select option { background: var(--bg-3); color: var(--white); }
   .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .team-grid { grid-template-columns: repeat(2, 1fr); }
-  .service-detail { grid-template-columns: 1fr; direction: ltr !important; }
+    .service-detail { grid-template-columns: 1fr; direction: ltr !important; }
   .service-detail:nth-child(even) { direction: ltr; }
   .contact-grid { grid-template-columns: 1fr; }
   .blog-grid { grid-template-columns: repeat(2, 1fr); }

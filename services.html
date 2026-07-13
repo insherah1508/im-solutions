@@ -59,7 +59,7 @@
   <div class="container">
 
     <!-- 0 · AI Opportunity Assessment (goes first) -->
-    <div class="service-detail reveal">
+    <div class="service-detail reveal" id="assessment">
       <div class="service-detail-visual">
         <div style="position:absolute;inset:0;padding:32px;display:flex;flex-direction:column;justify-content:center;gap:16px">
           <div style="background:var(--bg-3);border:1px solid rgba(201,168,76,0.3);border-radius:12px;padding:24px">
@@ -103,7 +103,7 @@
     </div>
 
     <!-- 1 -->
-    <div class="service-detail reveal">
+    <div class="service-detail reveal" id="workflow">
       <div class="service-detail-visual">
         <svg class="big-icon" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>
         <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center">
@@ -143,7 +143,7 @@
     </div>
 
     <!-- 2 -->
-    <div class="service-detail reveal">
+    <div class="service-detail reveal" id="outreach">
       <div class="service-detail-visual">
         <div style="position:absolute;inset:0;display:flex;flex-direction:column;gap:12px;padding:32px;justify-content:center">
           <div style="background:var(--bg-3);border:1px solid var(--border);border-radius:12px;padding:16px 20px;display:flex;gap:12px;align-items:center">
@@ -196,7 +196,7 @@
     </div>
 
     <!-- 3 -->
-    <div class="service-detail reveal">
+    <div class="service-detail reveal" id="scheduling">
       <div class="service-detail-visual">
         <div style="position:absolute;inset:0;padding:32px;display:flex;flex-direction:column;justify-content:center;gap:16px">
           <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:6px">
@@ -236,7 +236,7 @@
     </div>
 
     <!-- 4 -->
-    <div class="service-detail reveal">
+    <div class="service-detail reveal" id="cx">
       <div class="service-detail-visual">
         <div style="position:absolute;inset:0;padding:32px;display:flex;flex-direction:column;justify-content:center;gap:12px">
           <div style="background:var(--bg-3);border:1px solid var(--border);border-radius:12px;padding:16px 20px">
@@ -269,6 +269,38 @@
           <li>CRM updates triggered by customer interactions</li>
           <li>Multi-channel support (email, chat, WhatsApp)</li>
           <li>Sentiment analysis and escalation triggers</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Get Started
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="service-detail reveal" id="integration">
+      <div class="service-detail-visual">
+        <div style="position:absolute;inset:0;padding:32px;display:flex;align-items:center;justify-content:center">
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;width:100%;max-width:360px">
+            <div style="background:var(--bg-3);border:1px solid var(--border);border-radius:12px;padding:18px 10px;text-align:center;font-size:12px;color:var(--muted)">CRM</div>
+            <div style="background:var(--bg-3);border:1px solid var(--border);border-radius:12px;padding:18px 10px;text-align:center;font-size:12px;color:var(--muted)">ERP</div>
+            <div style="background:var(--bg-3);border:1px solid var(--border);border-radius:12px;padding:18px 10px;text-align:center;font-size:12px;color:var(--muted)">Email</div>
+            <div style="background:var(--gold-dim);border:1px solid rgba(201,168,76,0.4);border-radius:12px;padding:18px 10px;text-align:center;font-size:12px;color:var(--gold);font-weight:700;grid-column:span 3">AI LAYER — connects everything</div>
+            <div style="background:var(--bg-3);border:1px solid var(--border);border-radius:12px;padding:18px 10px;text-align:center;font-size:12px;color:var(--muted)">Chat</div>
+            <div style="background:var(--bg-3);border:1px solid var(--border);border-radius:12px;padding:18px 10px;text-align:center;font-size:12px;color:var(--muted)">Sheets</div>
+            <div style="background:var(--bg-3);border:1px solid var(--border);border-radius:12px;padding:18px 10px;text-align:center;font-size:12px;color:var(--muted)">Calendar</div>
+          </div>
+        </div>
+      </div>
+      <div class="service-detail-content">
+        <span class="tag">Infrastructure</span>
+        <h2>Platform <span class="gold">Integration</span></h2>
+        <p>Your tools shouldn't live on islands. We connect your existing software — CRMs, ERPs, communication platforms, spreadsheets — to powerful AI APIs, creating one seamless, unified system where data flows automatically.</p>
+        <ul class="feature-list">
+          <li>Connect CRMs, ERPs, and communication tools</li>
+          <li>AI API integration (OpenAI, Anthropic, Google)</li>
+          <li>Automated data sync between platforms</li>
+          <li>Custom middleware where off-the-shelf won't fit</li>
+          <li>Secure, monitored, and maintained connections</li>
         </ul>
         <a href="contact.html" class="btn btn-primary">Get Started
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
