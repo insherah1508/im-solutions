@@ -1,0 +1,49 @@
+<svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- ── ASCENDING OVERLAPPING DIAMONDS ──────────────────── -->
+  <!-- Three layered diamonds climbing bottom-left → top-right -->
+  <!-- Hidden IM: single back diamond = I · three peaks together = M -->
+
+  <!-- D1 · back layer · ghost -->
+  <polygon
+    points="18,36 33,51 18,66 3,51"
+    fill="#C9A84C" fill-opacity="0.10"
+    stroke="#C9A84C" stroke-width="1.4" stroke-opacity="0.45"
+    stroke-linejoin="miter"
+  />
+
+  <!-- D2 · mid layer -->
+  <polygon
+    points="36,22 50,36 36,50 22,36"
+    fill="#C9A84C" fill-opacity="0.28"
+    stroke="#C9A84C" stroke-width="1.6" stroke-opacity="0.70"
+    stroke-linejoin="miter"
+  />
+
+  <!-- D3 · front layer · solid -->
+  <polygon
+    points="54,8 66,20 54,32 42,20"
+    fill="#C9A84C" fill-opacity="0.82"
+    stroke="#C9A84C" stroke-width="2" stroke-opacity="1"
+    stroke-linejoin="miter"
+  />
+
+  <!-- Ascending spine (subtle dashed line through all three centers) -->
+  <polyline
+    points="18,51 36,36 54,20"
+    stroke="#C9A84C" stroke-width="0.8" stroke-opacity="0.20"
+    stroke-dasharray="2,4" fill="none"
+  />
+
+  <!-- Apex node at summit of D3 -->
+  <circle cx="54" cy="8" r="2.8" fill="#C9A84C"/>
+
+  <!-- Inner accent on D3 (smaller diamond inside the front shape) -->
+  <polygon
+    points="54,14 60,20 54,26 48,20"
+    fill="none"
+    stroke="#C9A84C" stroke-width="0.8" stroke-opacity="0.4"
+    stroke-linejoin="miter"
+  />
+
+</svg>
