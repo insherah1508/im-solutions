@@ -150,6 +150,25 @@ p { font-size: 16px; line-height: 1.75; color: var(--muted); }
 }
 .mobile-menu a.btn:hover { color: var(--bg); }
 
+/* ── FEATURED BLOG CARD ──────────────────────────────────── */
+.featured-card {
+  background: var(--bg-2); border: 1px solid rgba(201,168,76,0.25);
+  border-radius: 20px; overflow: hidden;
+  display: grid; grid-template-columns: 1fr 1fr; min-height: 380px;
+}
+.featured-visual {
+  background: var(--bg-3); display: flex; align-items: center;
+  justify-content: center; position: relative; overflow: hidden; min-height: 280px;
+}
+.featured-content {
+  padding: 48px; display: flex; flex-direction: column; justify-content: center;
+}
+@media (max-width: 768px) {
+  .featured-card { grid-template-columns: 1fr; }
+  .featured-visual { min-height: 180px; }
+  .featured-content { padding: 28px 24px; }
+}
+
 /* ── HERO ─────────────────────────────────────────────────── */
 .hero {
   min-height: 100vh; display: flex; align-items: center;
